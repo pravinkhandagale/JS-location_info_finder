@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>India Location Info</title>
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,500" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" />
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+    }
+    body{
+     margin-top:20px;
+    }
+    h1{
+      text-align: center;
+      margin-bottom: 28px;
+    }
+    #output{
+      width:100%;
+      height: 100%;
+      background: #ccc;
+      padding:0 10px 0 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="section hero">
+    <div class="container">
+      <h1>India Location Info</h1>
+      <h5>Enter a pincode and get location info</h5>
+    <form id="zipForm">
+      <div class="row">
+        <div class="tweleve columns">
+          <input class="u-full-width pincode" type="text" placeholder="Enter a pincode">
+        </div>
+      </div>
+    </form>
+      <div id="output"></div>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
