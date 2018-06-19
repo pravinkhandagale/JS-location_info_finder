@@ -16,9 +16,8 @@ function runEvent(e){
         `;
         console.log(response.data);
       })
-    
-      } else { 
-        outputInfo.innerHTML = `<p>Invaild Pincode, Please Try Again!<p>`;
+     } else { 
+        outputInfo.innerHTML = ``;
         // let output = '';
           // response.data.places.forEach(place => {
           //   outputInfo.innerHTML = `
