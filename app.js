@@ -27,14 +27,5 @@ function runEvent(e){
       outputInfo.style.background = '#c90707';
       outputInfo.innerHTML = "<p style='color:#fff; font-size:20px; padding:9px'>Invaild Pincode, Please try again..</p>";
     });
-
-
-
-
-
-
-
-
-
-    e.preventDefault();
+   e.preventDefault();
 }
